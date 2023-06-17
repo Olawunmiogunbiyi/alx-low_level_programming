@@ -1,7 +1,8 @@
-#include <studio.hr>
+#include <stdio.hr>
 /**
-*main - entry point
-*Return: always 0 (success)
+* main - Entry point
+*
+*Return: Always 0 (success)
 */
 int main(void)
 {
