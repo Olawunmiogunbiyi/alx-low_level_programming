@@ -2,7 +2,8 @@
 
 /**
  * main - check the code.
- * return: Always 0
+ *
+ * return: Always 0.
  */
 int main(void)
 {
