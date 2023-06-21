@@ -1,11 +1,11 @@
 #include "main.h"
+
 /**
+* main -Entry point of my code
 *
-*
-* main - A function that prints _putchar with a new line
-* Return: 0
+* Return: Alaways 0
 */
-*
+
 int main(void)
 {
 _putchar('_');
