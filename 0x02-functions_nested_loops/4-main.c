@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-    int r;
+int r;
 
     r = _isalpha('H');
     _putchar(r + '0');
