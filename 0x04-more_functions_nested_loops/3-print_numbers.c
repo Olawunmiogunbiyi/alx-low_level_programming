@@ -1,20 +1,17 @@
 #include "main.h"
 
 /**
- * mul - multiply two numbers
- * Description: multiply two numbers
- * @num1: interger value
- * @num2: interger value
+ *print_numbers - a function that prints the numbers, from 0 to 9
  *
- * Return: result
- * Example:
- *      mul(4 * 5) ---> 20
+ *Return: 0-9 followed by newline
+ * Example result :
+ * 0,1,2,3,4,5,6,7,8,9
  */
-
-int mul(int num1, int num2)
+void print_numbers(void)
 {
-	int result = 0;
+	int i;
 
-	result = num1 * num2;
-	return (result);
+	for (i = 0; i <= 9; i++)
+		_putchar(i + '0');
+	_putchar('\n');
 }
